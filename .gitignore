@@ -3,3 +3,4 @@
 *.npy
 /CA2/preprocessed_recordings
 *.wav
+/CA2/heatmaps
