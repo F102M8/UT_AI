@@ -1,0 +1,5 @@
+
+*.npy
+*.npy
+/CA2/preprocessed_recordings
+*.wav
