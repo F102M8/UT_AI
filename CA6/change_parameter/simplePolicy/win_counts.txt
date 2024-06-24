@@ -1,0 +1,2 @@
+Snake 1 Wins: 2
+Snake 2 Wins: 298
