@@ -20,8 +20,7 @@ class Snake_4:
         self.dirny = 1
         self.state_space_size = (ROWS, ROWS, ROWS, ROWS)
         self.action_space_size = 4
-        self.snake_number = Snake_4.snake_counter
-        Snake_4.snake_counter += 1
+
 
         self.epsilon = 0.1
 
