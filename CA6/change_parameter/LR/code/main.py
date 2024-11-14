@@ -52,7 +52,7 @@ def main():
                 reward_1 = 0
                 reward_2 = 0
                 pygame.time.delay(10)
-                clock.tick(100)
+                clock.tick(10)
 
                 for event in pygame.event.get():
                     if event.type == pygame.QUIT:
@@ -64,7 +64,7 @@ def main():
                     if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                         np.save(SNAKE_1_Q_TABLE, snake_1.q_table)
                         np.save(SNAKE_2_Q_TABLE, snake_2.q_table)
-                        pygame.time.delay(1000)
+                        pygame.time.delay(100)
 
                 state_1, new_state_1, action_1 = snake_1.move(snack, snake_2)
                 state_2, new_state_2, action_2 = snake_2.move(snack, snake_1)
